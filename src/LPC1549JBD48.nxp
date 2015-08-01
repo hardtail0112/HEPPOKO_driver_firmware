@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MCUDesign>
+    <Chip>LPC1549JBD48</Chip>
+    <Peripheral Name="ADC1">
+        <Signals BallNumber="22" Signal="ADC1_8"/>
+    </Peripheral>
+    <Peripheral Name="CAN0">
+        <Signals BallNumber="12" Signal="CAN0_RD"/>
+        <Signals BallNumber="20" Signal="CAN0_TD"/>
+    </Peripheral>
+    <Peripheral Name="GPIO">
+        <Signals BallNumber="0" Signal="PIO0_0"/>
+        <Signals BallNumber="1" Signal="PIO0_1"/>
+        <Signals BallNumber="2" Signal="PIO0_2"/>
+        <Signals BallNumber="3" Signal="PIO0_3"/>
+        <Signals BallNumber="4" Signal="PIO0_4"/>
+        <Signals BallNumber="8" Signal="PIO0_8"/>
+        <Signals BallNumber="18" Signal="PIO0_12"/>
+        <Signals BallNumber="23" Signal="PIO0_16"/>
+        <Signals BallNumber="27" Signal="PIO0_17"/>
+        <Signals BallNumber="42" Signal="PIO0_24"/>
+        <Signals BallNumber="43" Signal="PIO0_25"/>
+        <Signals BallNumber="44" Signal="PIO0_26"/>
+        <Signals BallNumber="45" Signal="PIO0_27"/>
+        <Signals BallNumber="46" Signal="PIO0_28"/>
+        <Signals BallNumber="47" Signal="PIO0_29"/>
+    </Peripheral>
+    <Peripheral Name="I2C0">
+        <Signals BallNumber="36" Signal="I2C0_SCL"/>
+        <Signals BallNumber="37" Signal="I2C0_SDA"/>
+    </Peripheral>
+    <Peripheral Name="QEI">
+        <Signals BallNumber="5" Signal="QEI_IDX"/>
+        <Signals BallNumber="7" Signal="QEI_PHA"/>
+        <Signals BallNumber="6" Signal="QEI_PHB"/>
+    </Peripheral>
+    <Peripheral Name="SCT1">
+        <Signals BallNumber="11" Signal="SCT1_OUT0"/>
+        <Signals BallNumber="14" Signal="SCT1_OUT1"/>
+        <Signals BallNumber="17" Signal="SCT1_OUT2"/>
+        <Signals BallNumber="21" Signal="SCT1_OUT5"/>
+    </Peripheral>
+    <Peripheral Name="SYSTEM">
+        <Signals BallNumber="33" Signal="RESET"/>
+        <Signals BallNumber="28" Signal="SWCLK"/>
+        <Signals BallNumber="32" Signal="SWDIO"/>
+    </Peripheral>
+    <LPCIOCON Name="PIO0_29">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_28">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_27">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_26">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_25">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_24">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_23">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_22">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_21">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_20">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_19">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_18">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_17">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_16">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_15">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_14">
+        <Type Name="MODE" Para="  Pull_down_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_13">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_12">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_11">
+        <Type Name="MODE" Para="  Pull_down_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_10">
+        <Type Name="MODE" Para="  Pull_down_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_9">
+        <Type Name="MODE" Para="  Pull_down_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_8">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_7">
+        <Type Name="MODE" Para="  Inactive"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_6">
+        <Type Name="MODE" Para="  Inactive"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_5">
+        <Type Name="MODE" Para="  Inactive"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_4">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_3">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_2">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_1">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_0">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <InmuxConfiguration>
+        <inmuxRegister name="SCT0_INMUX[3]" value="31"/>
+        <inmuxRegister name="SCT0_INMUX[6]" value="31"/>
+        <inmuxRegister name="SCT3_INMUX[2]" value="31"/>
+        <inmuxRegister name="PINTSEL[0]" value="127"/>
+        <inmuxRegister name="DMA_INMUX[3]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[3]" value="31"/>
+        <inmuxRegister name="PINTSEL[2]" value="127"/>
+        <inmuxRegister name="FREQMEAS_TARGET" value="15"/>
+        <inmuxRegister name="SCT3_INMUX[1]" value="31"/>
+        <inmuxRegister name="SCT2_INMUX[0]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[0]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[7]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[3]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[14]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[8]" value="31"/>
+        <inmuxRegister name="FREQMEAS_REF" value="15"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[12]" value="31"/>
+        <inmuxRegister name="DMA_INMUX[2]" value="31"/>
+        <inmuxRegister name="SCT0_INMUX[4]" value="31"/>
+        <inmuxRegister name="PINTSEL[1]" value="127"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[9]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[1]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[1]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[5]" value="31"/>
+        <inmuxRegister name="SCT2_INMUX[1]" value="31"/>
+        <inmuxRegister name="PINTSEL[4]" value="127"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[4]" value="31"/>
+        <inmuxRegister name="PINTSEL[3]" value="127"/>
+        <inmuxRegister name="PINTSEL[6]" value="127"/>
+        <inmuxRegister name="SCT0_INMUX[0]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[6]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[11]" value="31"/>
+        <inmuxRegister name="PINTSEL[5]" value="127"/>
+        <inmuxRegister name="SCT0_INMUX[1]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[10]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[13]" value="31"/>
+        <inmuxRegister name="SCT2_INMUX[2]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[17]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[15]" value="31"/>
+        <inmuxRegister name="DMA_INMUX[0]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[2]" value="31"/>
+        <inmuxRegister name="DMA_INMUX[1]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[6]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[5]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[4]" value="31"/>
+        <inmuxRegister name="PINTSEL[7]" value="127"/>
+        <inmuxRegister name="SCT3_INMUX[0]" value="31"/>
+        <inmuxRegister name="SCT0_INMUX[2]" value="31"/>
+        <inmuxRegister name="SCT0_INMUX[5]" value="31"/>
+        <inmuxRegister name="DMA_ITRIG_INMUX[16]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[2]" value="31"/>
+        <inmuxRegister name="SCT1_INMUX[0]" value="31"/>
+    </InmuxConfiguration>
+</MCUDesign>
